@@ -1,0 +1,23 @@
+function geraRecomendacao(idade, gostaDeFantasia) {
+  if (idade >= 10) {
+    if (idade >= 14) {
+      return "a pequena sereia";
+    } else {
+      if (idade >= 12) {
+        return "por água baixo";
+      } else {
+        if (gostaDeFantasia) {
+          return "As aventuras de pi";
+        } else {
+          return "Depois da chuva";
+        }
+      }
+    }
+  } else {
+    if (gostaDeFantasia) {
+      return "mentes sombrias";
+    } else {
+      return "O feitiço do tempo";
+    }
+  }
+}
